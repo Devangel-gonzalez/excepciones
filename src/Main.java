@@ -18,8 +18,8 @@ public class Main {
             } catch (RuntimeException e) {
                 System.out.println("Error: " + e.getMessage());
             }
-            System.out.println();
 
+            System.out.println();
         }
 
     }
@@ -28,7 +28,7 @@ public class Main {
         if (i >= 0 && i < s.length()) {
             System.out.println("Caracter en "+i+": "+s.charAt(i));
         } else {
-            throw new RuntimeException("Has intentado recuperar una posición de la cadena de caracteres que no existe");
+            throw new RuntimeException("Has intentado recuperar una posición de la cadena de caracteres que no existe");
         }
     }
 }
